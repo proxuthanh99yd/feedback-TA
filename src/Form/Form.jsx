@@ -24,7 +24,7 @@ export default class Form extends Component {
         ];
         return (
             <div className="form-block">
-                <h2>Thầy Phú dạy anh em có hay không ????</h2>
+                <h2>Thầy Phú dạy anh em có hay không ?????</h2>
                 <form onSubmit={(e) => e.preventDefault()}>
                     <div className="rating">
                         {rates.map((el, i) => (
